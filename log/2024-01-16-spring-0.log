@@ -1,0 +1,138 @@
+2024-01-16T10:34:17.588+08:00  INFO 5760 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.9 with PID 5760 (D:\IdeaProjects\demo\target\classes started by ACER in D:\IdeaProjects\demo)
+2024-01-16T10:34:17.590+08:00  INFO 5760 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2024-01-16T10:34:18.824+08:00  INFO 5760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-16T10:34:18.873+08:00  INFO 5760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2024-01-16T10:34:19.582+08:00  INFO 5760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 80 (http)
+2024-01-16T10:34:19.583+08:00  INFO 5760 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+2024-01-16T10:34:19.590+08:00  INFO 5760 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2024-01-16T10:34:19.602+08:00  INFO 5760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-16T10:34:19.603+08:00  INFO 5760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-01-16T10:34:19.685+08:00  INFO 5760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-16T10:34:19.686+08:00  INFO 5760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2025 ms
+2024-01-16T10:34:19.889+08:00  INFO 5760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-16T10:34:19.980+08:00  INFO 5760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-01-16T10:34:20.033+08:00  INFO 5760 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-16T10:34:20.348+08:00  INFO 5760 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-16T10:34:20.375+08:00  INFO 5760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-16T10:34:20.751+08:00  INFO 5760 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46188a89
+2024-01-16T10:34:20.753+08:00  INFO 5760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-16T10:34:21.812+08:00  INFO 5760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-16T10:34:22.160+08:00  INFO 5760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T10:34:22.658+08:00  INFO 5760 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : JSqlParser is in classpath; If applicable, JSqlParser will be used
+2024-01-16T10:34:22.659+08:00  INFO 5760 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-01-16T10:34:23.529+08:00  INFO 5760 --- [main] test                                     : Hello World
+2024-01-16T10:34:23.529+08:00  INFO 5760 --- [main] c.e.demo.controller.TestController       : 我是SLF4J日志信息
+2024-01-16T10:34:23.673+08:00  WARN 5760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-16T10:34:23.710+08:00  INFO 5760 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-01-16T10:34:24.278+08:00  INFO 5760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 80 (http) with context path ''
+2024-01-16T10:34:24.291+08:00  INFO 5760 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 7.497 seconds (process running for 8.792)
+2024-01-16T10:45:07.847+08:00  INFO 5760 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-16T10:45:07.847+08:00  INFO 5760 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-16T10:45:07.850+08:00  INFO 5760 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-01-16T10:45:08.108+08:00  WARN 5760 --- [http-nio-80-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2024-01-16T10:45:08.114+08:00  WARN 5760 --- [http-nio-80-exec-3] o.s.web.servlet.PageNotFound             : No endpoint GET /favicon.ico.
+2024-01-16T12:16:21.154+08:00  WARN 5760 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m58s986ms474µs100ns).
+2024-01-16T13:33:29.123+08:00  INFO 5760 --- [http-nio-80-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 345 ms
+2024-01-16T14:59:46.649+08:00  WARN 5760 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m53s282ms77µs600ns).
+2024-01-16T15:45:22.740+08:00  INFO 5760 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T15:45:22.763+08:00  INFO 5760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-16T15:45:22.773+08:00  INFO 5760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-16T15:45:30.328+08:00  INFO 24852 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.9 with PID 24852 (D:\IdeaProjects\demo\target\classes started by ACER in D:\IdeaProjects\demo)
+2024-01-16T15:45:30.330+08:00  INFO 24852 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2024-01-16T15:45:31.243+08:00  INFO 24852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-16T15:45:31.288+08:00  INFO 24852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-01-16T15:45:31.804+08:00  INFO 24852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 80 (http)
+2024-01-16T15:45:31.805+08:00  INFO 24852 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+2024-01-16T15:45:31.811+08:00  INFO 24852 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2024-01-16T15:45:31.821+08:00  INFO 24852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-16T15:45:31.821+08:00  INFO 24852 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-01-16T15:45:31.887+08:00  INFO 24852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-16T15:45:31.887+08:00  INFO 24852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1514 ms
+2024-01-16T15:45:32.023+08:00  INFO 24852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-16T15:45:32.130+08:00  INFO 24852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-01-16T15:45:32.175+08:00  INFO 24852 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-16T15:45:32.487+08:00  INFO 24852 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-16T15:45:32.526+08:00  INFO 24852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-16T15:45:32.910+08:00  INFO 24852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45e69324
+2024-01-16T15:45:32.913+08:00  INFO 24852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-16T15:45:34.190+08:00  INFO 24852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-16T15:45:34.532+08:00  INFO 24852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T15:45:34.867+08:00  INFO 24852 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : JSqlParser is in classpath; If applicable, JSqlParser will be used
+2024-01-16T15:45:34.867+08:00  INFO 24852 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-01-16T15:45:35.603+08:00  INFO 24852 --- [main] test                                     : Hello World
+2024-01-16T15:45:35.604+08:00  INFO 24852 --- [main] c.e.demo.controller.TestController       : 我是SLF4J日志信息
+2024-01-16T15:45:35.719+08:00  WARN 24852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-16T15:45:35.742+08:00  INFO 24852 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-01-16T15:45:36.113+08:00  INFO 24852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 80 (http) with context path ''
+2024-01-16T15:45:36.122+08:00  INFO 24852 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.523 seconds (process running for 7.524)
+2024-01-16T15:46:00.814+08:00  INFO 24852 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-16T15:46:00.814+08:00  INFO 24852 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-16T15:46:00.817+08:00  INFO 24852 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-01-16T15:58:09.761+08:00  INFO 24852 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T15:58:09.764+08:00  INFO 24852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-16T15:58:09.773+08:00  INFO 24852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-16T15:58:16.439+08:00  INFO 24812 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.9 with PID 24812 (D:\IdeaProjects\demo\target\classes started by ACER in D:\IdeaProjects\demo)
+2024-01-16T15:58:16.442+08:00  INFO 24812 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2024-01-16T15:58:17.261+08:00  INFO 24812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-16T15:58:17.319+08:00  INFO 24812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2024-01-16T15:58:17.876+08:00  INFO 24812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 80 (http)
+2024-01-16T15:58:17.877+08:00  INFO 24812 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+2024-01-16T15:58:17.883+08:00  INFO 24812 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2024-01-16T15:58:17.892+08:00  INFO 24812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-16T15:58:17.892+08:00  INFO 24812 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-01-16T15:58:17.956+08:00  INFO 24812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-16T15:58:17.956+08:00  INFO 24812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1470 ms
+2024-01-16T15:58:18.090+08:00  INFO 24812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-16T15:58:18.165+08:00  INFO 24812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-01-16T15:58:18.202+08:00  INFO 24812 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-16T15:58:18.421+08:00  INFO 24812 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-16T15:58:18.442+08:00  INFO 24812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-16T15:58:18.691+08:00  INFO 24812 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3400d6fa
+2024-01-16T15:58:18.693+08:00  INFO 24812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-16T15:58:19.730+08:00  INFO 24812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-16T15:58:19.811+08:00  INFO 24812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T15:58:20.131+08:00  INFO 24812 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : JSqlParser is in classpath; If applicable, JSqlParser will be used
+2024-01-16T15:58:20.131+08:00  INFO 24812 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-01-16T15:58:20.878+08:00  INFO 24812 --- [main] test                                     : Hello World
+2024-01-16T15:58:20.879+08:00  INFO 24812 --- [main] c.e.demo.controller.TestController       : 我是SLF4J日志信息
+2024-01-16T15:58:20.990+08:00  WARN 24812 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-16T15:58:21.012+08:00  INFO 24812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-01-16T15:58:21.403+08:00  INFO 24812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 80 (http) with context path ''
+2024-01-16T15:58:21.413+08:00  INFO 24812 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.631 seconds (process running for 6.556)
+2024-01-16T15:58:44.618+08:00  INFO 24812 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-16T15:58:44.618+08:00  INFO 24812 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-16T15:58:44.620+08:00  INFO 24812 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-01-16T16:05:15.334+08:00  INFO 24812 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T16:05:15.338+08:00  INFO 24812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-16T16:05:15.347+08:00  INFO 24812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-16T16:05:20.322+08:00  INFO 25752 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.9 with PID 25752 (D:\IdeaProjects\demo\target\classes started by ACER in D:\IdeaProjects\demo)
+2024-01-16T16:05:20.325+08:00  INFO 25752 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2024-01-16T16:05:21.059+08:00  INFO 25752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-16T16:05:21.104+08:00  INFO 25752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-01-16T16:05:21.577+08:00  INFO 25752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 80 (http)
+2024-01-16T16:05:21.577+08:00  INFO 25752 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+2024-01-16T16:05:21.582+08:00  INFO 25752 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+2024-01-16T16:05:21.589+08:00  INFO 25752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-16T16:05:21.589+08:00  INFO 25752 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-01-16T16:05:21.645+08:00  INFO 25752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-16T16:05:21.645+08:00  INFO 25752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2024-01-16T16:05:21.762+08:00  INFO 25752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-16T16:05:21.812+08:00  INFO 25752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-01-16T16:05:21.853+08:00  INFO 25752 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-16T16:05:22.051+08:00  INFO 25752 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-16T16:05:22.072+08:00  INFO 25752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-16T16:05:22.327+08:00  INFO 25752 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30a62a5b
+2024-01-16T16:05:22.329+08:00  INFO 25752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-16T16:05:23.218+08:00  INFO 25752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-16T16:05:23.287+08:00  INFO 25752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T16:05:23.571+08:00  INFO 25752 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : JSqlParser is in classpath; If applicable, JSqlParser will be used
+2024-01-16T16:05:23.571+08:00  INFO 25752 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-01-16T16:05:24.299+08:00  INFO 25752 --- [main] test                                     : Hello World
+2024-01-16T16:05:24.299+08:00  INFO 25752 --- [main] c.e.demo.controller.TestController       : 我是SLF4J日志信息
+2024-01-16T16:05:24.397+08:00  WARN 25752 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-16T16:05:24.421+08:00  INFO 25752 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-01-16T16:05:24.799+08:00  INFO 25752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 80 (http) with context path ''
+2024-01-16T16:05:24.808+08:00  INFO 25752 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.159 seconds (process running for 6.019)
+2024-01-16T18:41:15.051+08:00  INFO 25752 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-16T18:41:15.084+08:00  INFO 25752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-16T18:41:15.094+08:00  INFO 25752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

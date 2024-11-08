@@ -1,0 +1,14 @@
+
+spring:
+  profiles:
+    active: '@environment@'  #通过Maven控制环境  打包只打包一个配置文件只能找Maven3
+#    active: dev  开发环境
+#    active: prod  生产环境
+
+  mail:
+    # 163邮箱的地址为smtp.163.com，直接填写即可
+    host: smtp.163.com
+    # 你申请的163邮箱
+    username: DoWhatYouCant@163.com
+    # 注意密码是在开启smtp/pop3时自动生成的，记得保存一下，不然就找不到了
+    password: SWkyjxgymCeyXJ3Y

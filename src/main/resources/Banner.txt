@@ -1,0 +1,4 @@
+${AnsiColor.BRIGHT_GREEN}
+动感光波 biu~
+当前 Spring Boot 版本：${spring-boot.version}
+${AnsiColor.BLACK}

@@ -1,0 +1,9 @@
+
+#  生产环境
+server:
+  port: 8080
+
+#生产环境，我们需要关闭Swagger文档
+springdoc:
+  api-docs:
+    enabled: false

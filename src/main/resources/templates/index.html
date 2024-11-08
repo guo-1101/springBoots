@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<body>
+    <div>首页</div>
+    <form>
+        <input type="text" id="username" placeholder="用户名">
+        <input type="text" id="email" placeholder="邮件">
+        <input type="text" id="code" placeholder="验证码">
+        <input type="text" id="password" placeholder="密码">
+<!--        href="javascript:getCode;"-->
+        <a onclick="getCode()">获取验证码</a>
+        <br>
+        <a onclick="register()">注册</a>
+    </form>
+</body>
+<script>
+    function getCode() {
+        axios.post('/code', {
+            email:document.getElementById('email').value
+        }, {
+            // 以表单的形式发送
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        }).then(({data}) => {
+            alert(data);
+        })
+    }
+
+    function register() {
+        axios.post('/register', {
+            username:document.getElementById('username').value,
+            email:document.getElementById('email').value,
+            code:Number(document.getElementById('code').value),
+            password:document.getElementById('password').value
+        }, {
+            // 以表单的形式发送
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        }).then(({data}) => {
+            alert(data);
+        })
+    }
+</script>
+</html>
