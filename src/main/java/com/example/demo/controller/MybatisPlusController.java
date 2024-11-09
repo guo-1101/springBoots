@@ -25,7 +25,7 @@ public class MybatisPlusController {
 //    官方网站地址：https://baomidou.com
 
 //    一、快速上手 --对应 MyUser MyUserMapper--
-//    步1.添加依赖
+//    哈哈哈 步1.添加依赖
 //    步2.然后依然是实体类，可以直接映射到数据库中的表。接着编写一个Mapper来操作了
 //    步3.来写一个简单测试用例，可以看到这个Mapper提供的方法还是很丰富的
 
